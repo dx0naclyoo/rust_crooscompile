@@ -1,0 +1,14 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.41"
+lazy_static = "1.5.0"
+rdev = { version = "0.3", features = ["unstable_grab"] }
+xcap = "0.6.1"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
