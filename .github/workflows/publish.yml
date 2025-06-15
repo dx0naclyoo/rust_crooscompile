@@ -46,6 +46,6 @@ jobs:
         if: contains(matrix.os, 'ubuntu')
       - uses: taiki-e/upload-rust-binary-action@v1
         with:
-          bin: prtsc
+          bin: prtsc_maker
           target: ${{ matrix.target }}
           token: ${{ secrets.GITHUB_TOKEN }}
